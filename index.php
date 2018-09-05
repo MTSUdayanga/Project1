@@ -20,11 +20,11 @@
                         <div class="pull-left">
                             <div class="contact-detail">
                                 <i class="fa fa-phone">
-                                    <span class="details"><a href="tel:+94718905282">+94 71 890 5282</a></span>
+                                    <span class="details"><a href="tel:+94718905282">+94 71 777 511</a></span>
                                 </i>
                                 <span class="separate hidden-sm hidden-xs">||</span>
                                 <i class="fa fa-envelope-o hidden-sm hidden-xs">
-                                    <span class="details"><a href="mailto:keerthiyaa@gmail.com">keerthiyaa@gmail.com</a></span>
+                                    <span class="details"><a href="mailto:keerthiyaa@gmail.com">user@gmail.com</a></span>
                                 </i>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                         <div class="sec-header sec-header-pad">
                             <a class="head-link-hover" href="index.php">
                                 <h2>Sri Lanka Tourism</h2>
-                                <h3>Plan your trip to Sri Lanka</h3>
+                                <h3>Plan Your Trip To Sri Lanka</h3>
                             </a>
                         </div>
                     </div>
@@ -163,9 +163,7 @@
                             </div>
 
                         </div>
-                        <!--                        <div class="col-md-12">
-                                                    <input class="file-upload" type="file" accept="image/*"/>
-                                                </div>-->
+                       
                     </div>
                 </div>
             </div>
@@ -185,10 +183,7 @@
 
         </div>
 
-
         <!--Footer-->
-
-
 
         <footer class="footer-style container-fluid"style="background-color: #003366; height: auto; ">
             <div class="container">
