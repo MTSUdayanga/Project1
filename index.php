@@ -13,39 +13,10 @@
 
         <!--header-->
 
-        <!--        <div class="panel heading">
-        
-                    <div class="panel-heading" >
-        
-                        <i class="fa fa-phone">
-                            <span class="details"><a href="tel:+94718905282">+94 71 890 5282</a></span>
-                        </i>
-                        <span class="separate hidden-sm hidden-xs">||</span>
-                        <i class="fa fa-envelope-o hidden-sm hidden-xs">
-                            <span class="details"><a href="mailto:keerthiyaa@gmail.com">keerthiyaa@gmail.com</a></span>
-                        </i>
-                        <div class="visitor-login-name" style="float: right;"> Hi ..  </div>
-        
-                        <div class="dropdown" style="float: right;" >
-                            <button class="drop" type="button" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i>
-                                <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">Profile</a></li>
-                                <li><a href="#">Logout</a></li>
-        
-                            </ul>
-                        </div>
-        
-                        <hr>
-                        <h1>Sri Lankan Toursim</h1>
-        
-                    </div>
-                </div>-->
-
         <div class="container-fluid h-st1" >
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-6">
+                    <div class="col-md-6 col-sm-6 col-xs-6" style="margin-top: 5px;">
                         <div class="pull-left">
                             <div class="contact-detail">
                                 <i class="fa fa-phone">
@@ -59,19 +30,14 @@
                         </div>
                     </div>
                     <div class="dropdown" style="float: right;">
+                        <div class="vrPic">
+                            <img src="images/profileconfig.png" >
+                        </div>
                         <div class="visitor-login-name">
-                            Hi                </div>
+                            Hi User                </div>
                         <img class="img-circle add-user-logged" id="visitor_pic" src="#" alt="" />
-                        <!--                        <div class="dropdown-content">
-                                                    <a href="#">
-                                                        <i class="fa fa-user"></i>
-                                                        My profile
-                                                    </a>
-                                                    <a href="post-and-get/logout.php">
-                                                        <i class="fa fa-power-off"></i>
-                                                        Log out
-                                                    </a>
-                                                </div>-->
+                        
+
                     </div>
                 </div>
                 <hr style="padding-top: -10px !important;">
@@ -119,12 +85,12 @@
                 </div>
                 <div class=" hidden-lg hidden-md visible-sm visible-xs">
                     <div class="row">
-                        <div class=" col-xs-4 col-sm-4 p-o">
+                        <div class=" hidden-xs col-xs-8 col-sm-4 p-o ">
                             <a href="index.php">
                                 <img src="images/logo-intro2.png" alt="image" class="logo"/>  
                             </a>
                         </div>
-                        <div class="col-xs-8 col-sm-8 p-o">
+                        <div class="col-xs-8 col-sm-8 p-o col-xs-offset-2">
                             <div class="sec-header sec-header-pad c-sec-header-pad">
                                 <a class="head-link-hover" href="index.php">
                                     <h2>Sri Lanka Tourism</h2>
@@ -158,26 +124,31 @@
 
         <div class="container">
 
-            <div class="col-sm-8">
+            <div class="col-sm-9">
                 <div class="panel panel-default">
                     <div class="panel-heading"><i class="fa fa-user" aria-hidden="true"></i>Profile</div>
-                    <div class="panel-body"> 
+                    <div class="panel-body" style="padding-top: 35px"> 
                         <!--Profile img-->
-                        <div class="col-sm-6"> 
+
+                        <div class="col-sm-6 hidden-xs"> 
 
                             <div class="col-md-4">
 
                                 <div class="circle">
                                     <!-- User Profile Image -->
-                                    <img class="profile-pic" src="images/ProfilePic.jpg" >
+                                    <img class="profile-pic" src="images/male-user-profile-picture_318-37825.jpg" >
 
                                     <!-- Default Image -->
                                     <!-- <i class="fa fa-user fa-5x"></i> -->
                                 </div>
 
                             </div>
+                            <div calss="col-md-4">
+                                <input class="file-upload" type="file" style="margin-bottom: -24px; margin-left: -10px; padding-top: 220px;"accept="image/*" >
+                            </div>
 
                         </div>
+
 
                         <div class="col-sm-6">
                             <div class="list-group">
@@ -187,18 +158,19 @@
                                 <li class="list-group-item"> <b>Contact No : </b><span class="badge"></span></li>
                                 <li class="list-group-item"> <b>Address : </b><span class="badge"></span></li>
                                 <li class="list-group-item"> <b> City : </b><span class="badge"></span></li>
+
+
                             </div>
 
-
                         </div>
-                        <div class="col-md-12">
-                            <input class="file-upload" type="file" accept="image/*"/>
-                        </div>
+                        <!--                        <div class="col-md-12">
+                                                    <input class="file-upload" type="file" accept="image/*"/>
+                                                </div>-->
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-4">  
+            <div class="col-sm-3">  
 
                 <div class="list-group">
                     <a href="#" class="list-group-item"> <i class="fa fa-tachometer" aria-hidden="true"></i> My Profile</a>
@@ -216,13 +188,13 @@
 
         <!--Footer-->
 
-       
 
-        <footer class="footer-style container-fluid"style="background-color: #003366; height: auto;">
+
+        <footer class="footer-style container-fluid"style="background-color: #003366; height: auto; ">
             <div class="container">
                 <div class="row footer-includes">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center footer-logo">
-                        <img src="images/logo-intro.png" height="70px" alt="">
+                        <img src="images/logo-intro.png" alt=""  class="foo-img" >
                     </div>
                     <div class="text-center" id="footer-link">
                         Copyright © 2017.<a target="_blank"  href="http://sublime.lk/">Sublime Holdings</a>.All rights reserved.

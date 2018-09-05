@@ -3,22 +3,26 @@ body {
 }
 
 .profile-pic {
-    max-width: 150px;
-    max-height: 205px;
+    max-width: 200px;
+    max-height: 200px;
     display: block;
+   
 }
 
 .file-upload {
     display: none;
 }
 .circle {
-    border-radius: 1000px !important;
-    overflow: hidden;
-    width: 128px;
-    height: 128px;
+    /*border-radius: 100px !important;*/
+   overflow: hidden;
     border: 8px solid rgba(255, 255, 255, 0.7);
     position: absolute;
-    top: 72px;
+    top: -14px;overflow: hidden;
+    width: 200px;
+    height: 200px;
+   border: 8px solid rgba(255, 255, 255, 0.7);
+    position: absolute;
+
 }
 img {
     max-width: 100%;
