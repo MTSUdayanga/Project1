@@ -11,5 +11,8 @@ and open the template in the editor.
     </head>
     <body>
         About Us
+        About Us
+        About Us
+        About Us
     </body>
 </html>
