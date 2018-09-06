@@ -10,5 +10,6 @@ and open the template in the editor.
         <title>About Us</title>
     </head>
     <body>
+        About Us
     </body>
 </html>
