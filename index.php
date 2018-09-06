@@ -60,7 +60,7 @@
                     <div class="col-md-3">
                         <div class="sec-header sec-header-pad">
                             <ul class="social-icon">
-                                <h4>Follow us</h4>
+                                <h4>Follow Us</h4>
                                 <a data-original-title="Facebook" href="#"><i class="fa fa-facebook index-a-facebook"></i></a>
                                 <a data-original-title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
                                 <a data-original-title="Linkedin" href="#"><i class="fa fa-linkedin"></i></a>
@@ -192,7 +192,7 @@
                         <img src="images/logo-intro.png" alt=""  class="foo-img" >
                     </div>
                     <div class="text-center" id="footer-link">
-                        Copyright © 2017.<a target="_blank"  href="http://sublime.lk/">Sublime Holdings</a>.All rights reserved.
+                        Copyright © 2017.<a target="_blank"  href="http://sublime.lk/">Sublime Holdings</a>.All Rights Reserved.
                     </div>
                     <div class="fbottom text-center">
                         <a href="#">Terms</a><span>|</span>
