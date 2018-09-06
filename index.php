@@ -126,7 +126,7 @@
 
             <div class="col-sm-9">
                 <div class="panel panel-default">
-                    <div class="panel-heading"><i class="fa fa-user" aria-hidden="true"></i>Profile</div>
+                    <div class="panel-heading"><i class="fa fa-user" aria-hidden="true"></i> Profile Information </div>
                     <div class="panel-body" style="padding-top: 35px"> 
                         <!--Profile img-->
 
