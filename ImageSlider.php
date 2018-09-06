@@ -4,10 +4,11 @@
         <link href="Plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
         <link href="Plugins/OwlCarousel/dist/assets/owl.carousel.min.css" rel="stylesheet" type="text/css"/>
         <link href="Plugins/OwlCarousel/dist/assets/owl.theme.default.min.css" rel="stylesheet" type="text/css"/>
+        <link href="Plugins/OwlCarousel/dist/assets/animate.css" rel="stylesheet" type="text/css"/>
         <title>Slider</title>
         <style>
             .item {
-                height: 200px;
+                height: 300px;
                 width: 200px;
                 background: #cccccc;
                 color: #fff;
@@ -48,20 +49,48 @@
         <script>
             $(document).ready(function () {
                 $('.owl-carousel').owlCarousel({
+//                    loop: true,
+//                    margin: 100,
+//                    nav: true,
+//                    responsive: {
+//                        0: {
+//                            items: 1
+//                        },
+//                        600: {
+//                            items: 3
+//                        },
+//                        1000: {
+//                            items: 5
+//                        }
+//                    }
+
+                    animateOut: 'slideOutDown',
+                    animateIn: 'flipInX',
+                    items: 2,
                     loop: true,
-                    margin: 100,
-                    nav: true,
-                    responsive: {
-                        0: {
-                            items: 1
-                        },
-                        600: {
-                            items: 3
-                        },
-                        1000: {
-                            items: 5
-                        }
-                    }
+                    margin: 10,
+                    autoplay: true,
+                    autoplayTimeout: 500,
+                    autoplayHoverPause: true
+
+
+
+
+
+
+
+
+
+
+                });
+                $('.play').on('click', function () {
+                    owl.trigger('play.owl.autoplay', [1000])
+                })
+                $('.stop').on('click', function () {
+                    owl.trigger('stop.owl.autoplay')
+
+
+
                 })
             });
 
